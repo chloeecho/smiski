@@ -1,0 +1,21 @@
+[project]
+name = "smiski"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [
+    { name = "Anish Pallati", email = "anishp@duck.com" }
+]
+dependencies = ["numpy~=1.24.3", "pygame~=2.4.0", "screeninfo~=0.8.1"]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+[tool.hatch.build.targets.wheel]
+packages = ["smiski"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = ["black~=23.3.0", "ruff~=0.0.269"]

@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+		"njpwerner.autodocstring",
+		"charliermarsh.ruff",
+		"ms-python.black-formatter"
+	]
+}
